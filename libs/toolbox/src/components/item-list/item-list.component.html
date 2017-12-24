@@ -1,0 +1,6 @@
+<div class="list-group">
+  <a *ngFor="let item of items"
+     (click)="onSelect(item.id)"
+     href="#"
+     class="list-group-item list-group-item-action">{{item.text}}</a>
+</div>

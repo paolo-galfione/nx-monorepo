@@ -70,6 +70,12 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
+    },
+    {
+      "name": "toolbox",
+      "root": "libs/toolbox/src",
+      "test": "../../../test.js",
+      "appRoot": ""
     }
   ]
 }

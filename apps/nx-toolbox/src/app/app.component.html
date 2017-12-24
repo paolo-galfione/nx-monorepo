@@ -1,3 +1,5 @@
 <div class="container">
   <h1>Toolbox Examples</h1>
+  <app-item-list [items]="items" (selected)="setCurrentItem($event)"></app-item-list>
+  <code>{{currentItem | json}}</code>
 </div>
