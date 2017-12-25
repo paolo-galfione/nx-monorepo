@@ -1,0 +1,10 @@
+<div class="container">
+  <ul class="nav">
+    <li class="nav-item" *ngFor="let navItem of navItems">
+      <a class="nav-link" [routerLink]="navItem.link">{{navItem.menu}}</a>
+    </li>
+  </ul>
+
+  <router-outlet></router-outlet>
+
+</div>

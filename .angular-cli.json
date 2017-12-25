@@ -22,6 +22,14 @@
     {
       "project": "apps/nx-toolbox/e2e/tsconfig.e2e.json",
       "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "apps/nx-erp/src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "apps/nx-erp/e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
     }
   ],
   "test": {
@@ -45,6 +53,32 @@
     "typescriptMismatch": false
   },
   "apps": [
+    {
+      "name": "nx-erp",
+      "root": "apps/nx-erp/src",
+      "outDir": "dist/apps/nx-erp",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "../../../test.js",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "../../../tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "styles.css",
+        "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      ],
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    },
     {
       "name": "nx-toolbox",
       "root": "apps/nx-toolbox/src",
