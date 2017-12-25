@@ -1,9 +1,9 @@
-import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
-import { Item } from "../../models/item";
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Item } from '../../models/item';
 
 @Component({
-  selector: "app-item-list",
-  templateUrl: "./item-list.component.html"
+  selector: 'app-item-list',
+  templateUrl: './item-list.component.html'
 })
 export class ItemListComponent {
   @Input() items: Item[];
