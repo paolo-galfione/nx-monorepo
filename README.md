@@ -1,5 +1,21 @@
 # NxMonorepo
 
+Questo progetto ha lo scopo di illustrare le principali funzionalità degli schematics introdotti da @nrwl/schematics per la gestione di un monorepo contenente sia Applicazioni Angular 2+ che librerie.
+
+Tutorial [Youtube]()
+
+Il progetto è git è dotato di tag per ogni step di avanzamento:
+
+* __Tag01__: Progetto iniziale generato da @nrwl/schematics. Creazione del workspace di nx-monorepo
+* __Tag02__: Creazione dell'app _nx-toolbox_
+* __Tag03__: Creazione della libreria di componenti riusabili _toolbox_ e implementazione del componente _ItemList_
+* __Tag04__: Implementazione della componente _ItemDetail_
+* __Tag05__: Creazione dell'applicazione principale _nx-erp_
+* __Tag06__: Creazione del plugin applicativo _customers_
+* __Tag07__: Inject dell'URL da _nx-erp_ a _customers_
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0 using [Nrwl Nx](https://nrwl.io/nx).
 
 ## Nrwl Extensions for Angular (Nx)
