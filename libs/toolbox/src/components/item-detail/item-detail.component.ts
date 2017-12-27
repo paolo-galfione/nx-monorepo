@@ -1,5 +1,5 @@
 import { Component, OnChanges, SimpleChanges, Input } from '@angular/core';
-import { Item } from '@nx-monorepo/toolbox';
+import { Item } from '../../models/item';
 
 @Component({
   selector: 'app-item-detail',

@@ -106,6 +106,18 @@
       }
     },
     {
+      "name": "customers",
+      "root": "libs/customers/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "entities",
+      "root": "libs/entities/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
       "name": "toolbox",
       "root": "libs/toolbox/src",
       "test": "../../../test.js",

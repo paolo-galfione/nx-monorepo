@@ -9,10 +9,14 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     NxModule.forRoot(),
-    RouterModule.forRoot([
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', component: HomeComponent}
-    ], { initialNavigation: 'enabled' })
+    RouterModule.forRoot(
+      [
+        { path: '', redirectTo: 'home', pathMatch: 'full' },
+        { path: 'home', component: HomeComponent },
+        { path: 'customers', loadChildren: '@nx-monorepo/customers#CustomersModule' }
+      ],
+      { initialNavigation: 'enabled' }
+    )
   ],
   declarations: [AppComponent, HomeComponent],
   bootstrap: [AppComponent]

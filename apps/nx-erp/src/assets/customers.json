@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "first": "Alan",
+        "last": "Jones",
+        "email": "alan.jones@gmail.com",
+        "phone": "+397655363"
+    },
+    {
+        "id": 2,
+        "first": "Jim",
+        "last": "Clark",
+        "email": "jim.clark@gmail.com",
+        "phone": "+658233686"
+    },
+    {
+        "id": 3,
+        "first": "Ronnie",
+        "last": "Petterson",
+        "email": "ronniep@gmail.com",
+        "phone": "+838237937"
+    },
+    {
+        "id": 4,
+        "first": "Gilles",
+        "last": "Villeneuve",
+        "email": "gilles@gmail.com",
+        "phone": "+562325343"
+    }
+]
