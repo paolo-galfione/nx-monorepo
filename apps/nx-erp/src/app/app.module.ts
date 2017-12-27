@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NxModule } from '@nrwl/nx';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { CUSTOMER_URL } from '@nx-monorepo/entities';
 
 @NgModule({
   imports: [
@@ -19,6 +20,9 @@ import { HomeComponent } from './home/home.component';
     )
   ],
   declarations: [AppComponent, HomeComponent],
+  providers: [
+    {provide: CUSTOMER_URL, useValue: 'assets/customers.json'}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
